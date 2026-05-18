@@ -1,0 +1,25 @@
+﻿# Compiled
+target/
+*.class
+
+# Uploads (runtime files, not source)
+uploads/images/*
+!uploads/images/.gitkeep
+
+# Static images (not source)
+src/main/resources/static/images/*
+!src/main/resources/static/images/.gitkeep
+
+# Logs
+*.log
+*.txt
+
+# IDE
+.idea/
+*.iml
+
+# Maven wrapper (optional)
+DbCheck.java
+DbDump.java
+DbCheck.class
+DbDump.class
